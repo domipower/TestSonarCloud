@@ -1,6 +1,6 @@
 language: java
 jdk
-- openjdk11
+ - openjdk11
 
 addons:
  sonarcloud:
@@ -8,5 +8,5 @@ addons:
   token: "5525461b10d712d561335219d60eb13acffb3847"
   
 script:
-- ant build
-- sonar-scanner
+ - ant build
+ - sonar-scanner
